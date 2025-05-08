@@ -1,0 +1,153 @@
+html {
+  line-height: 1.5;
+  -webkit-text-size-adjust: 100%;
+  font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont,
+    "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif,
+    "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+
+.contenedor {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+   
+}
+
+.caja {
+  margin: 20px; /* Añadir margen para más espacio alrededor de cada caja */
+  text-align: center;
+  img{
+    margin:10px;
+  }
+  border-style: solid;
+  border-color: transparent;
+}
+.caja:hover{
+  border-color: black;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.8);
+  img:hover{
+    transform: scale(1.02);
+    transition: 0.5s;
+  }
+  img:active{
+    transform: scale(0.95);
+    
+  }
+}
+
+.imagen {
+  border-radius: 30px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.8);
+}
+
+.pasarPagina {
+  width: auto;
+  margin: 5px;
+  gap: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.pasoPagina {
+  width: 20px;
+}
+
+.casa {
+  display: flex;
+  
+  flex-direction: row;
+  align-items: center;
+  justify-content: end;
+  border-style: dashed;
+  img{
+    width: 60px;
+  }
+  
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
+
+
+
+li {
+  margin: 15px; /* Añadir margen para más espacio alrededor de cada elemento de lista */
+  
+}
+li:hover{
+  
+    transform: scale(1.05);
+    transition: 0.5s;
+  
+}
+
+body{
+  background-image: url("https://img.freepik.com/foto-gratis/ruido-fondo_1194-7547.jpg?t=st=1741881652~exp=1741885252~hmac=a1cad90b40ab7c22b57168f0b541435b41d4c17e93d89029d9a3b219adec13ae&w=740");
+}
+
+.contenido{
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  
+  width: 40%;
+  justify-content: center;
+  align-content: center;  
+}
+.contenido .FechaEpisodio{
+  text-align: center;
+}
+h1{
+  text-align: center;
+}
+.contenido table {
+  margin: auto;
+  margin-bottom: 20px;
+}
+td {
+  padding: 10px;
+}
+
+.contenido ul{
+  margin: auto;
+}
+.header{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  
+}
+.buscador{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+.botonBuscador {
+  display: flex;
+  
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+  border: 1px solid black;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.botonBuscador:hover {
+  background-color: rgba(0, 0, 0, 0.1);
+}
+
+.botonBuscador img {
+  width: 20px;
+  height: 20px;
+}
